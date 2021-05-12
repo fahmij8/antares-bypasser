@@ -21,6 +21,7 @@
   ));
 
   $response = curl_exec($curl);
+  header("Access-Control-Allow-Origin: *");
   curl_close($curl);
   $response = json_encode($response);
   echo $response;
