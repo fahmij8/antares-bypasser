@@ -16,7 +16,8 @@
     CURLOPT_HTTPHEADER => array(
       "X-M2M-Origin: {$accesskey}",
       "Content-Type: application/json;ty=4",
-      "Accept: application/json"
+      "Accept: application/json",
+      "X-ANTARES-NOTIFY-MQTT: 1"
     ),
   ));
 
