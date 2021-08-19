@@ -1,7 +1,7 @@
 
 # Antares HTTP API CORS Bypasser
 
-Alternative javascript GET & POST code to Antares HTTP API without causing CORS issue. To use this, you need [jQuery](https://cdnjs.com/libraries/jquery) library.
+Alternative library to access [Antares](https://github.com/antaresdocumentation/antares-nodejs) HTTP API without causing CORS issue. To use this, you need [jQuery](https://cdnjs.com/libraries/jquery) library.
 
 ## Features
 
